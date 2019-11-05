@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ejemplos;
+package ejercicios;
 
 /**
  *
@@ -15,6 +15,15 @@ public class OperadoresLogicos {
         boolean valorA = true;
         boolean valorB = false;
 
+        // V and F = F   
+        // V and V = V
+        // F and F = F
+        
+        // V OR V = V
+        // V OR F = V
+        // F OR V = V
+        // F OR F = F
+        
         System.out.printf("Negacion: !%s = %s\n", valorA, !valorA);
         System.out.printf("Negacion: !%s = %s\n", valorB, !valorB);
         System.out.printf("And: %s & %s = %s\n", valorA, valorB, 
